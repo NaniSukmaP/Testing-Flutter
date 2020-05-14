@@ -128,17 +128,12 @@ class _HomePageState extends State<HomePage> {
                           boxShadow: [
                             BoxShadow(
                               color: Colors.indigo[100],
-                              //blurRadius: 8.0,
-                              //spreadRadius: 1.0,
-                              //offset: Offset(-10.0, 0.0)
                             ),
                           ]),
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: Icon(Icons.file_download, color: Colors.white),
                       ),
-
-                      //decoration: ,
                     )
                   ],
                 ),
